@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Color de fondo */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center; /* Centrar el encabezado */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Centrar la tabla */
+    background-color: #ffffff; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo de filas pares */
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #dddddd; /* Borde */
+    text-align: center; /* Centrar contenido */
+}
+
+a {
+    text-decoration: none; /* Quitar subrayado a los enlaces */
+}
+
+a button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer;
+    text-decoration: none; /* Quitar subrayado */
+    display: inline-block; /* Mostrar como bloque */
+    margin: 10px; /* Margen exterior */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+a button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+
+.cabeza {
+    background-color: #3498db; /* Azul */
+    color: #ffffff; /* Blanco */
+    padding: 10px;
+    border: 12px 12px 0 0;
+    text-align: center;
+}
